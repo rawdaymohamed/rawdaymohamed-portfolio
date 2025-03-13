@@ -1,0 +1,22 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Geist", sans-serif;
+  background: #0c0c1d;
+  color: lightgray;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}

@@ -1,8 +1,10 @@
-
+import Link from "next/link";
+import "./app.scss";
+import Navbar from "./components/Navbar/Navbar";
 export default function Home() {
   return (
     <div>
-      <section>Hero</section>
+      <section><Navbar /></section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax </section>
